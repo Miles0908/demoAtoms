@@ -1,0 +1,79 @@
+.navbarWrapper {
+    width: 100%;
+}
+
+.topNavbar {
+    @include displayFlex;
+    padding: 1rem 2.5rem;
+
+    .list {
+        width: 50%;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+        li {
+            cursor: pointer;
+        }
+    }
+
+    .login {
+        width: 50%;
+        @include displayEnd;
+        cursor: pointer;
+
+        ul {
+            li {
+                @include displayFlex;
+            }
+        }
+    }
+}
+
+@media (max-width: 757px) {
+    .navbarWrapper {
+        width: 100%;
+    }
+
+    .topNavbar {
+        @include displayFlex;
+        padding: 1rem 0 1rem ;
+
+        .list {
+            width: 100%;
+            @include displayFlex;
+            justify-content: space-between;
+            padding: 1rem 0 1rem ;
+
+            ul {
+                width: 100%;
+                justify-content: space-around;
+                border-top: 1px solid black;
+                height: 2rem;
+                gap:0;
+
+                li {
+                    @include displayFlex;
+                    width: 50%;
+                    padding: 0;
+                    cursor: pointer;
+
+                    &:nth-child(2) { // This targets the "Abbonati" item
+                        border-left: 1px solid black;
+                        
+                    }
+                }
+            }
+        }
+
+        .login {
+            display: none;
+
+            ul {
+                display: none;
+            }
+        }
+    }
+}
