@@ -13,9 +13,12 @@
     ul {
         display: flex;
         list-style-type: none;
-        gap: 1rem;
+        gap: 1.25rem;
         li {
+            font-size: 0.825rem;
             cursor: pointer;
+            font-weight: 500;
+
         }
     }
 
@@ -60,7 +63,7 @@
                     padding: 0;
                     cursor: pointer;
 
-                    &:nth-child(2) { // This targets the "Abbonati" item
+                    &:nth-child(2) { 
                         border-left: 1px solid black;
                         
                     }

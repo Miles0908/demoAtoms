@@ -3,6 +3,7 @@ import React, { useMemo } from 'react';
 import styles from './Navbar.module.scss';
 import { GoPerson } from "react-icons/go";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import NavigationTab from "../NavigationTab/NavigationTab";
 
 const Navbar: React.FC = () => {
     const { navbar } = content;
@@ -30,6 +31,7 @@ const Navbar: React.FC = () => {
             <div>
                 {topNavbarTemplate}
                 <BurgerMenu/>
+                <NavigationTab/>
             </div>
         </div>
     );
