@@ -1,0 +1,34 @@
+{
+    "navbar": {
+      "contribute": "Contribuisci",
+      "subscribe": "Abbonati",
+      "login":"Accedi"
+    },
+
+    "menu":{
+        "articles":"Articoli",
+        "articlesDesc":"Trend, dati e novità del Terzo Settore.",
+        "stories":"Storie",
+        "storiesDesc":"Letture ed approfondimenti dei fenomeni complessi.",
+        "interview":"Interviste",
+        "interviewDesc":"Letture ed approfondimenti dei fenomeni complessi.",
+        "opinions":"Opinioni",
+        "opinionsDesc":"Riflessioni e confronti dei nostri opinionisti.",
+        "podcast":"Podcast",
+        "podcastDesc":"Un luogo per dare voce ai protagonisti della sostenibilità.",
+        "bookazine":"Bookazine",
+        "bookazineDesc":"Una rivista da leggere e un libro da conservare."
+
+    },
+    "navigationTab":{
+        "allThemes":"Tutti i temi",
+        "environment":"Ambiente",
+        "economy":"Economia",
+        "world":"Mondo",
+        "nonProfit": "Non Profit",
+        "politics": "Politica",
+        "society": "Società",
+        "welfare": "Welfare"
+    }
+  }
+  

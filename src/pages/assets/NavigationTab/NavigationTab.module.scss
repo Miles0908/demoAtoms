@@ -1,0 +1,61 @@
+.NavigationTabWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.75rem 3rem 1.75rem 3rem; 
+    border-top: 1px solid black;
+    display: flex;
+    border-bottom: 1px solid black;
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        h4{
+            cursor: pointer;
+            position: relative; 
+            padding-bottom: 0.5rem;
+            
+            &.selectedTab {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -29px;
+                    left: 0;
+                    right: 0;
+                    height: 0.4rem;
+                    background-color: #FF2C33;
+                    transition: transform 0.3s ease, width 0.3s ease;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .icons {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        svg{
+           font-size: 1rem;
+           font-weight: 500;
+
+           &:nth-child(2)
+           {
+            border: 1px solid;
+            font-size: 1.45rem;
+            border-radius: 0.25rem;
+            padding: 0.125rem;
+            box-shadow: -0.1rem 0.1rem 0rem 0rem #000000;
+        }
+        }
+
+    }
+}
+
+@media (max-width:792px){
+    .NavigationTabWrapper{
+        display: none;
+    }
+}

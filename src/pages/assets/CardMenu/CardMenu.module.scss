@@ -1,0 +1,45 @@
+.card {
+    padding: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    height: 19rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+    h3 {
+        margin: 0;
+        font-size: 3rem;
+        text-align: start;
+        cursor: pointer;
+    }
+
+    p {
+        margin: 0.5rem 0 0;
+        min-width: max-content;
+        font-size: 0.875rem;
+        text-align: start;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .card {
+        flex: 1 1 100%; 
+        height: auto; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .card {
+        p{
+            min-width: 0;
+        }
+    }
+}

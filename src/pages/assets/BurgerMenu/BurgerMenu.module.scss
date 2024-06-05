@@ -1,0 +1,74 @@
+.burgerMenuWrapper {
+    position: relative;
+}
+
+.menuIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.menuButton {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    color: #E63036;
+    border-right: 1px solid  #000000;
+}
+
+.searchIcon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    color: #E63036;
+    border-left: 1px solid  #000000;
+
+}
+
+
+.menu {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.menuContent {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    div {
+        width: 30%;
+        text-align: center;
+    }
+}
+
+.miniMenuContentCard{
+    border-right: 1px solid #000000;
+}
+
+.miniMenuContent {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    div {
+        width: 16.666667%;
+        text-align: center;
+        @include displayFlex;
+    }
+}
+
