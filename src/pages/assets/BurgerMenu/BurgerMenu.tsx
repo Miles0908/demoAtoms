@@ -45,9 +45,11 @@ const BurgerMenu: React.FC = () => {
                     {isMenuOpen ? <IoMdClose /> : <FiMenu />}
                 </div>
                 <div className={styles.separator}></div>
-                <div className={styles.searchIcon}>
-                   {isMenuOpen ? "" : <CiSearch />}
-                </div>
+                {!isMenuOpen && (
+                    <div className={styles.searchIcon}>
+                        <CiSearch />
+                    </div>
+                )}
             </div>
             {isMenuOpen && (
                 <div className={styles.menu}>

@@ -4,6 +4,7 @@ import styles from './Navbar.module.scss';
 import { GoPerson } from "react-icons/go";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import NavigationTab from "../NavigationTab/NavigationTab";
+import SectionTab from "../SectionTab/SectionTab";
 
 const Navbar: React.FC = () => {
     const { navbar } = content;
@@ -32,6 +33,7 @@ const Navbar: React.FC = () => {
                 {topNavbarTemplate}
                 <BurgerMenu/>
                 <NavigationTab/>
+                <SectionTab/>
             </div>
         </div>
     );

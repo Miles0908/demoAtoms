@@ -14,6 +14,22 @@
 
         h4{
             cursor: pointer;
+            position: relative; 
+            padding-bottom: 0.5rem;
+            
+            &.selectedTab {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -29px;
+                    left: 0;
+                    right: 0;
+                    height: 0.4rem;
+                    background-color: #FF2C33;
+                    transition: transform 0.3s ease, width 0.3s ease;
+                    width: 100%;
+                }
+            }
         }
     }
 
@@ -35,5 +51,11 @@
         }
         }
 
+    }
+}
+
+@media (max-width:792px){
+    .NavigationTabWrapper{
+        display: none;
     }
 }
