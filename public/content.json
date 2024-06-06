@@ -29,6 +29,58 @@
         "politics": "Politica",
         "society": "Società",
         "welfare": "Welfare"
+    },
+
+    "heroCards": [
+        {
+          "category": "MIGRANTI",
+          "title": "Roccella Jonica, la Lampedusa che l'Italia ignora",
+          "authorImage": "/firstIcon.jpeg",
+          "authorName": "Di Alessandra Paglia",
+          "date": "29 Giugno 2022",
+          "backgroundImage": "/firstPhoto1.jpg",
+          "showIcon": false,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ALLARMI",
+          "title": "Il collasso dei ghiacciai negli scatti del fotografo ambientale Fabiano Ventura",
+          "authorImage": "/secondIcon.png",
+          "authorName": "Di Ugo Lombi",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/secondPhoto2.png",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ESPERIMENTI",
+          "title": "Gli startupper? Li trovi al bistrot. Così il DumBo incuba relazioni",
+          "authorImage": "/thirdIcon.jpeg",
+          "authorName": "Di Diletta Grella",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/thirdPhoto3.jpg",
+          "showIcon": true,
+          "showAudioPlayer": true,
+          "audioSrc": ""
+        },
+        {
+          "category": "UCRAINA",
+          "title": "Nelle città italiane tutti in piazza per e con Kiev",
+          "authorImage": "/fourthIcon.jpeg",
+          "authorName": "Di Anna Spena",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/fourtPhoto4.png",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        }
+      ],
+      "footerCard":{
+        "support":"Il tuo supporto è fondamentale",
+        "contribute":"Dai il tuo contributo"
     }
+      
   }
   
