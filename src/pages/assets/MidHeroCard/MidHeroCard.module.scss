@@ -75,6 +75,7 @@
             svg {
                 margin-right: 0.5rem;
                 color: black;
+                font-size: 1.5rem;
             }
 
             img {
@@ -94,16 +95,22 @@
         width: 100%;
         display: flex;
         grid-column: span 3;
-        align-items: center;
         justify-content: space-between;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 1rem;
         background-image: url("/quotePhoto.png");
-        span {
+        background-size: cover;
+        background-position: center;
+        color: #FFFFFF;
+        span{
+            font-size: 3rem;
+            color: #FFFFFF1A;
+        }
+        p {
             display: flex;
-            align-items: center;
-            justify-content: center;
             gap: 1rem;
+            padding-left: 3rem;
         }
     }
 
@@ -136,7 +143,12 @@
         flex-direction: column;
         flex-wrap: wrap;
 
-        .card2, .card3, .card4, .card5 {
+        .card1 , .card2 , .card3, .card4,.card5{
+            padding: 1rem;
+        }
+
+
+        .card2, .card3, .card4 {
             background-image: none !important;
             color: #000;
 
@@ -146,6 +158,8 @@
         }
 
         .card5 {
+          display: flex;
+          margin: 1rem;
             .textOverlay{
                 top: 1rem;
                 left: 16px;

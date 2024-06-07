@@ -4,8 +4,7 @@ import Image from 'next/image';
 import content from "../../../../public/content.json";
 import { IoMdArrowForward } from "react-icons/io";
 import { HiMiniPause } from "react-icons/hi2";
-
-
+import { BiSolidQuoteLeft } from "react-icons/bi";
 
 const MidHeroCard: React.FC = () => {
     const { MidHeroCards } = content;
@@ -37,8 +36,8 @@ const MidHeroCard: React.FC = () => {
                 </div>
             ))}
                 <div className={styles.footerCard}>
-                    <h2>{footerMidCard.support}</h2>
-                    <span>{footerMidCard.contribute} <IoMdArrowForward /></span>
+                    <h2><span><BiSolidQuoteLeft/></span>{footerMidCard.support}</h2>
+                    <p>{footerMidCard.contribute} </p>
                     
                 </div>
         </div>

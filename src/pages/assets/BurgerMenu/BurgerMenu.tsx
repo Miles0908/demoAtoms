@@ -21,12 +21,12 @@ const menuItems = [
 ];
 
 const MinimenuItems = [
-    { title: menu.articles  },
-    { title: menu.stories},
-    { title: menu.interview},
-    { title: menu.opinions },
-    { title: menu.podcast },
-    { title: menu.bookazine}
+    { title: menu.who  },
+    { title: menu.editorialBoard},
+    { title: menu.services},
+    { title: menu.events },
+    { title: menu.activism },
+    { title: menu.crowdfunding}
 ];
 
 

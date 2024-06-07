@@ -17,7 +17,14 @@
         "podcast":"Podcast",
         "podcastDesc":"Un luogo per dare voce ai protagonisti della sostenibilità.",
         "bookazine":"Bookazine",
-        "bookazineDesc":"Una rivista da leggere e un libro da conservare."
+        "bookazineDesc":"Una rivista da leggere e un libro da conservare.",
+        "who":"Chi siamo",
+        "editorialBoard":"Comitato editoriale",
+        "services":"Servizi",
+        "events":"Agenda/Eventi",
+        "activism":"Mappa dell'attivismo",
+        "crowdfunding":"Inchieste crowdfunding"
+
 
     },
     "navigationTab":{
