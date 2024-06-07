@@ -72,4 +72,19 @@
         @include displayFlex;
     }
 }
+@media (max-width: 768px) {
+
+    .miniMenuContentCard{
+        border-right:0px;
+        border-bottom: 1px solid #000000;
+    }
+    
+    .miniMenuContent {
+        flex-direction: column;
+    }
+
+    .miniMenuContent div {
+        width: 100%;
+    }
+}
 
