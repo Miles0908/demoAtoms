@@ -17,7 +17,14 @@
         "podcast":"Podcast",
         "podcastDesc":"Un luogo per dare voce ai protagonisti della sostenibilità.",
         "bookazine":"Bookazine",
-        "bookazineDesc":"Una rivista da leggere e un libro da conservare."
+        "bookazineDesc":"Una rivista da leggere e un libro da conservare.",
+        "who":"Chi siamo",
+        "editorialBoard":"Comitato editoriale",
+        "services":"Servizi",
+        "events":"Agenda/Eventi",
+        "activism":"Mappa dell'attivismo",
+        "crowdfunding":"Inchieste crowdfunding"
+
 
     },
     "navigationTab":{
@@ -80,6 +87,67 @@
       "footerCard":{
         "support":"Il tuo supporto è fondamentale",
         "contribute":"Dai il tuo contributo"
+    },
+    "MidHeroCards": [
+        {
+          "category": "PROGETTO ARCA",
+          "title": "“Qui Odessa”, fotografie, progetti e solidarietà",
+          "authorImage": "/firstIcon.jpeg",
+          "authorName": "Di Redazione",
+          "date": "13 Luglio 2022",
+          "backgroundImage": "",
+          "showIcon": false,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ADOLESCENTI",
+          "title": "Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne",
+          "authorImage": "/secondIcon.png",
+          "authorName": "Di Luca Cereda",
+          "date": "13 Luglio 2022",
+          "backgroundImage": "/midfirstPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ECONOMIA CIVILE",
+          "title": "“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento",
+          "authorImage": "/thirdIcon.jpeg",
+          "authorName": "Di Emiliano Moccia",
+          "date": "12 Luglio 2022",
+          "backgroundImage": "/midSecondPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "SPORT",
+          "title": "Troppi abusi nello sport minorile, il governo interviene",
+          "authorImage": "/fourthIcon.jpeg",
+          "authorName": "Di Diletta Grella",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/midThirdPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": true,
+          "audioSrc": ""
+        },
+        {
+            "category": "SOCIETÀ",
+            "title": "Donne e nuove generazioni: con loro riparte l’Italia",
+            "authorImage": "/firstIcon.jpeg",
+            "authorName": "Di Anna Spena",
+            "date": "29 Giugno 2022",
+            "backgroundImage": "/midFourthPhoto.jpg",
+            "showIcon": false,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+          }
+      ],
+    "footerMidCard":{
+        "support":"Essere troppo seri non è cosa molto seria",
+        "contribute":"[Detto Africano]"
     }
       
   }

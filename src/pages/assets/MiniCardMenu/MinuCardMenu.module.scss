@@ -1,6 +1,7 @@
 .wrapperCard{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -11,6 +12,9 @@
         text-align: start;
         padding: 2rem;
         cursor: pointer;
+        color: #1E1E1E;
+        min-width: max-content;
+        font-weight: 400;
     }
 }
 
