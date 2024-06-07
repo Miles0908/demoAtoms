@@ -1,6 +1,7 @@
 .wrapperCard{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -11,11 +12,14 @@
         text-align: start;
         padding: 2rem;
         cursor: pointer;
+        color: #1E1E1E;
+        min-width: max-content;
+        font-weight: 400;
     }
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .card {
         display: flex;
         flex-wrap: wrap;

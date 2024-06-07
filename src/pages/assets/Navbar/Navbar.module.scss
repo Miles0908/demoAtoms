@@ -31,11 +31,14 @@
             li {
                 @include displayFlex;
             }
+            li:first-child {
+                font-size: 1rem;
+            }
         }
     }
 }
 
-@media (max-width: 792px) {
+@media (max-width: 950px) {
     .navbarWrapper {
         width: 100%;
     }

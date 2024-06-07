@@ -17,7 +17,14 @@
         "podcast":"Podcast",
         "podcastDesc":"Un luogo per dare voce ai protagonisti della sostenibilità.",
         "bookazine":"Bookazine",
-        "bookazineDesc":"Una rivista da leggere e un libro da conservare."
+        "bookazineDesc":"Una rivista da leggere e un libro da conservare.",
+        "who":"Chi siamo",
+        "editorialBoard":"Comitato editoriale",
+        "services":"Servizi",
+        "events":"Agenda/Eventi",
+        "activism":"Mappa dell'attivismo",
+        "crowdfunding":"Inchieste crowdfunding"
+
 
     },
     "navigationTab":{
@@ -29,6 +36,216 @@
         "politics": "Politica",
         "society": "Società",
         "welfare": "Welfare"
-    }
+    },
+
+    "heroCards": [
+        {
+          "category": "MIGRANTI",
+          "title": "Roccella Jonica, la Lampedusa che l'Italia ignora",
+          "authorImage": "/firstIcon.jpeg",
+          "authorName": "Di Alessandra Paglia",
+          "date": "29 Giugno 2022",
+          "backgroundImage": "/firstPhoto1.jpg",
+          "showIcon": false,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ALLARMI",
+          "title": "Il collasso dei ghiacciai negli scatti del fotografo ambientale Fabiano Ventura",
+          "authorImage": "/secondIcon.png",
+          "authorName": "Di Ugo Lombi",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/secondPhoto2.png",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ESPERIMENTI",
+          "title": "Gli startupper? Li trovi al bistrot. Così il DumBo incuba relazioni",
+          "authorImage": "/thirdIcon.jpeg",
+          "authorName": "Di Diletta Grella",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/thirdPhoto3.jpg",
+          "showIcon": true,
+          "showAudioPlayer": true,
+          "audioSrc": ""
+        },
+        {
+          "category": "UCRAINA",
+          "title": "Nelle città italiane tutti in piazza per e con Kiev",
+          "authorImage": "/fourthIcon.jpeg",
+          "authorName": "Di Anna Spena",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/fourtPhoto4.png",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        }
+      ],
+      "footerCard":{
+        "support":"Il tuo supporto è fondamentale",
+        "contribute":"Dai il tuo contributo"
+    },
+    "MidHeroCards": [
+        {
+          "category": "PROGETTO ARCA",
+          "title": "“Qui Odessa”, fotografie, progetti e solidarietà",
+          "authorImage": "/firstIcon.jpeg",
+          "authorName": "Di Redazione",
+          "date": "13 Luglio 2022",
+          "backgroundImage": "",
+          "showIcon": false,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ADOLESCENTI",
+          "title": "Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne",
+          "authorImage": "/secondIcon.png",
+          "authorName": "Di Luca Cereda",
+          "date": "13 Luglio 2022",
+          "backgroundImage": "/midfirstPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "ECONOMIA CIVILE",
+          "title": "“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento",
+          "authorImage": "/thirdIcon.jpeg",
+          "authorName": "Di Emiliano Moccia",
+          "date": "12 Luglio 2022",
+          "backgroundImage": "/midSecondPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": false,
+          "audioSrc": ""
+        },
+        {
+          "category": "SPORT",
+          "title": "Troppi abusi nello sport minorile, il governo interviene",
+          "authorImage": "/fourthIcon.jpeg",
+          "authorName": "Di Diletta Grella",
+          "date": "14 Luglio 2022",
+          "backgroundImage": "/midThirdPhoto.jpg",
+          "showIcon": true,
+          "showAudioPlayer": true,
+          "audioSrc": ""
+        },
+        {
+            "category": "SOCIETÀ",
+            "title": "Donne e nuove generazioni: con loro riparte l’Italia",
+            "authorImage": "/firstIcon.jpeg",
+            "authorName": "Di Anna Spena",
+            "date": "29 Giugno 2022",
+            "backgroundImage": "/midFourthPhoto.jpg",
+            "showIcon": false,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+          }
+      ],
+    "footerMidCard":{
+        "support":"Essere troppo seri non è cosa molto seria",
+        "contribute":"[Detto Africano]"
+    },
+    "blogs": [
+        {
+            "image": "/blogIcon1.jpeg",
+            "title": "Il Becco dell'oca",
+            "author": "Di Paolo Dell'Oca"
+        },
+        {
+            "image": "/blogIcon2.jpeg",
+            "title": "Disarmato",
+            "author": "Di Pasquale Pugliese"
+        },
+        {
+            "image": "/blogIcon3.jpeg",
+            "title": "Battitiperminuto",
+            "author": "Di Lorenzo Maria Alvaro"
+        },
+        {
+            "image": "/blogIcon5.jpeg",
+            "title": "La Zanzarella",
+            "author": "Di Elena Zanella"
+        },
+        {
+            "image": "/blogIcon4.jpeg",
+            "title": "Impact Q&A",
+            "author": "Di Laura Orestano"
+        }
+    ],
+    "blogTitle": {
+        "title": "Il Blog"
+    },
+    "botHeroCards": [
+        {
+            "category": "IMPRESA SOCIALE",
+            "title": "La Kasbah mazarese nella quale si gusta la cultura araba",
+            "authorImage": "/botIcon.jpeg",
+            "authorName": "Di Giovanni Gavardi",
+            "date": "3 Luglio 2022",
+            "backgroundImage": "/botFirst.png",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "SPONSORED",
+            "title": "Sostenibilità sociale: accordo tra Dynamo Academy e Acsi",
+            "authorImage": "/botIcon1.png",
+            "authorName": "Di Dynamo Academy",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "PERSONE",
+            "title": "Uccisa ad Haiti suor Luisa, era l'angelo dei bambini",
+            "authorImage": "/botIcon2.jpeg",
+            "authorName": "Di Luca Cereda",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "/botThird.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "NETWORKING",
+            "title": "Il fundraising in rotta verso Giardini-Naxos",
+            "authorImage": "/botIcon3.png",
+            "authorName": "Di Redazione",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "SOCIETÀ CIVILE",
+            "title": "Lisa, il modello Croce Rossa per l'inclusione lavorativa",
+            "authorImage": "/botIcon4.png",
+            "authorName": "Di Francesco Piobbico",
+            "date": "29 Giugno 2022",
+            "backgroundImage": "/botFive.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        }
+    ],
+    "footerLinks": [
+        "Il Gruppo",
+        "Note Legali",
+        "Chi Siamo",
+        "Condizioni d'uso",
+        "Privacy",
+        "Scrivici",
+        "Pubblicità"
+    ],
+    "footerText": "© 1994-2022 Vita Societa Editoriale S.p.A."
+      
   }
   
