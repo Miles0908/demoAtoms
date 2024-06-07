@@ -148,6 +148,36 @@
     "footerMidCard":{
         "support":"Essere troppo seri non è cosa molto seria",
         "contribute":"[Detto Africano]"
+    },
+    "blogs": [
+        {
+            "image": "/blogIcon1.jpeg",
+            "title": "Il Becco dell'oca",
+            "author": "Di Paolo Dell'Oca"
+        },
+        {
+            "image": "/blogIcon2.jpeg",
+            "title": "Disarmato",
+            "author": "Di Pasquale Pugliese"
+        },
+        {
+            "image": "/blogIcon3.jpeg",
+            "title": "Battitiperminuto",
+            "author": "Di Lorenzo Maria Alvaro"
+        },
+        {
+            "image": "/blogIcon5.jpeg",
+            "title": "La Zanzarella",
+            "author": "Di Elena Zanella"
+        },
+        {
+            "image": "/blogIcon4.jpeg",
+            "title": "Impact Q&A",
+            "author": "Di Laura Orestano"
+        }
+    ],
+    "blogTitle": {
+        "title": "Il Blog"
     }
       
   }
