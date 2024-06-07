@@ -178,7 +178,74 @@
     ],
     "blogTitle": {
         "title": "Il Blog"
-    }
+    },
+    "botHeroCards": [
+        {
+            "category": "IMPRESA SOCIALE",
+            "title": "La Kasbah mazarese nella quale si gusta la cultura araba",
+            "authorImage": "/botIcon.jpeg",
+            "authorName": "Di Giovanni Gavardi",
+            "date": "3 Luglio 2022",
+            "backgroundImage": "/botFirst.png",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "SPONSORED",
+            "title": "Sostenibilità sociale: accordo tra Dynamo Academy e Acsi",
+            "authorImage": "/botIcon1.png",
+            "authorName": "Di Dynamo Academy",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "PERSONE",
+            "title": "Uccisa ad Haiti suor Luisa, era l'angelo dei bambini",
+            "authorImage": "/botIcon2.jpeg",
+            "authorName": "Di Luca Cereda",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "/botThird.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "NETWORKING",
+            "title": "Il fundraising in rotta verso Giardini-Naxos",
+            "authorImage": "/botIcon3.png",
+            "authorName": "Di Redazione",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "SOCIETÀ CIVILE",
+            "title": "Lisa, il modello Croce Rossa per l'inclusione lavorativa",
+            "authorImage": "/botIcon4.png",
+            "authorName": "Di Francesco Piobbico",
+            "date": "29 Giugno 2022",
+            "backgroundImage": "/botFive.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        }
+    ],
+    "footerLinks": [
+        "Il Gruppo",
+        "Note Legali",
+        "Chi Siamo",
+        "Condizioni d'uso",
+        "Privacy",
+        "Scrivici",
+        "Pubblicità"
+    ],
+    "footerText": "© 1994-2022 Vita Societa Editoriale S.p.A."
       
   }
   

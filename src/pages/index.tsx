@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/pages/assets/Navbar/Navbar"
 import styles from "@/styles/Home.module.scss"
 import HeroSection from "./assets/HeroSection/HeroSection";
+import Footer from "./assets/Footer/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.wrapper} >
         <Navbar/>
         <HeroSection/>
+        <Footer/>
 
       </main>
     </>
