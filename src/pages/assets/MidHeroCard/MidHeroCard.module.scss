@@ -133,8 +133,15 @@
         grid-column: span 2; 
         grid-row: span 2; 
         .textOverlay{
-            top: 2.5rem;
-            left: 25rem;
+            position: absolute;
+            bottom: 0;
+            right: 50px;
+            transform: translateX(2%);
+            width: 35%; 
+
+            h2{
+                font-size: 1.9rem;
+            }
         }
     }
 
@@ -161,8 +168,11 @@
           display: flex;
           margin: 1rem;
             .textOverlay{
-                top: 1rem;
-                left: 16px;
+                position: relative;
+                bottom: auto;
+                right: auto;
+                transform: none;
+                width: auto;
             }
         }
     }
