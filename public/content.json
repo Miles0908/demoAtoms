@@ -236,6 +236,63 @@
             "audioSrc": ""
         }
     ],
+    "LastCards": [
+        {
+            "category": "INNOVAZIONE",
+            "title": "Gli anziani del Sicomoro spopolano su TikTok",
+            "authorImage": "/LastPhoto1.jpeg",
+            "authorName": "Di Luigi Alfonso",
+            "date": "3 Luglio 2022",
+            "backgroundImage": "/LastImg1.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "DISABILITÀ",
+            "title": "Emergenza sordi: quando un'app ti salva la vita",
+            "authorImage": "/thirdIcon.jpeg",
+            "authorName": "Di Sara Bellingeri",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "/LastImg2.jpeg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "TRAIETTORIE",
+            "title": "Diego, il fruttivendolo che ha scelto la cooperazione sociale",
+            "authorImage": "/LastPhoto2.jpeg",
+            "authorName": "Di Luca Cereda",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "/LastImg3.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "SOCIALE",
+            "title": "Pedalare Sicily Coast to Coast per essere più inclusivi",
+            "authorImage": "/LastPhoto3.jpeg",
+            "authorName": "Di Giovanni Gamba",
+            "date": "1 Luglio 2022",
+            "backgroundImage": "/LastImg4.jpg",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        },
+        {
+            "category": "UCRAINA",
+            "title": "Leopoli, andata + ritorno",
+            "authorImage": "/LastPhoto4.jpeg",
+            "authorName": "Di Gilda Sciortino",
+            "date": "29 Giugno 2022",
+            "backgroundImage": "/LastImg5.png",
+            "showIcon": true,
+            "showAudioPlayer": false,
+            "audioSrc": ""
+        }
+    ],
     "footerLinks": [
         "Il Gruppo",
         "Note Legali",
